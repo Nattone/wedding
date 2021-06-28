@@ -68,6 +68,7 @@ section.wrapper {
     height: 100vh;
     position: relative;
     padding: 20px 0;
+    color: #fdfdfd;
 }
 
 .header::after {
@@ -123,24 +124,33 @@ section.wrapper {
     box-sizing: border-box;
 }
 
-/*-------------------section about-------------------*/
-
 .about_text {
     text-align: center;
     font-size: 40px;
 }
 
-
-
-/*-------------------section timer-------------------*/
-.timer {
-    background-color: #93384a;
-    padding: 100px auto;
+.program_item {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: justify;
 }
 
-/*-------------------section about-------------------*/
+.program_item::after {
+    content: '—————';
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
-/*-------------------section about-------------------*/
+.recommendations {
+    text-align: justify;  
+}
+
+.timer {
+    background-color: #93384a;
+    padding: 100px 0;
+}
 
 
 
