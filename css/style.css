@@ -135,6 +135,7 @@ section.wrapper {
 /*-------------------section timer-------------------*/
 .timer {
     background-color: #93384a;
+    margin: 100px auto;
 }
 
 /*-------------------section about-------------------*/
