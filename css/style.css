@@ -181,4 +181,12 @@ section.wrapper {
     text-align: center;
 }
 
+.photo_link {
+    font-weight: bold;
+}
+
+.photo_link:hover {
+    
+}
+
 
