@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Приглашение на свадьбу</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@0;1&display=swap" rel="stylesheet">
 </head>
@@ -20,6 +20,7 @@
                 <li class="header_item"><a href="#recommendations">Рекомендации</a></li>
                 <li class="header_item"><a href="#timer">◔</a></li>
                 <li class="header_item"><a href="#map">Карта</a></li>
+                <li class="header_item"><a href="#photo">Фото</a></li>
                 <!-- <li class="header_item"><a href=""></a> </li> -->
             </ul>
             <div class="header_titles">
@@ -29,7 +30,9 @@
         </div>
     </header>
     <section class="about wrapper">
-        <p class="about_text text">♡♥</p>
+        <p class="about_text text">♡♡</p>
+        <!-- <p class="about_text text">♥♥</p> -->
+
         <p class="about_text text">Привет! Мы Никита и Наташа, и мы хотим пригласить вас на нашу небольшую, но класнную свадьбу!</p>
         <!-- <img src="" class="about_img"> -->
     </section>
@@ -39,11 +42,70 @@
             <ul class="program_list">
                 <li class="program_item">В 10:00 состоится наша торжественная церемония во Дворце Бракосочетания №1. Желательно прийти заранее, минут за 10-15.</li>
                 <li class="program_item">Далее прогуляемся по Английской набережной через Сенатскую площадь в сквер перед Исаакиевским собором, на протяжении пути и в сквере с нами будет фотограф, которая сделает памятные фотографии.</li>
-                <li class="program_item">Здесь мы оставим вас на один-два часа, убежим на фотосессию вдвоём. Вы пока можете прогуляться или посетить Исаакиевский собор.</li>
+                <li class="program_item">Здесь мы оставим вас на пару часа, убежим на фотосессию вдвоём. Вы пока можете прогуляться или посетить Исаакиевский собор.</li>
             </ul>
         </div>
         <div class="col">
-            <img src="img/img_1.jpeg">
+            <!-- <img src="img/img_1.jpeg"> -->
+            <div class="calendar">
+                <table>
+                    <tr>
+                        <td>пнд</td>
+                        <td>вт</td>
+                        <td>ср</td>
+                        <td>чт</td>
+                        <td>пт</td>
+                        <td>сб</td>
+                        <td>вск</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td class="mark">7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
         </div>
         <div class="col">
             <img src="img/img_1.jpeg">
@@ -65,10 +127,14 @@
     </section>
     <section class="map">
         <title class="map_title title"></title>
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5ecb85e57d37e30510e76320dddc33e19a4a9fd817b8e78eed0da0100cd592c&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
-    </section>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5ecb85e57d37e30510e76320dddc33e19a4a9fd817b8e78eed0da0100cd592c&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>    </section>
     <section class="timer">
+        <h2 class="timer_title title">До свадьбы осталось:</h2>
         <script src="//megatimer.ru/get/2b6103687ea9688326c2f1141d49a56e.js"></script>
+    </section>
+    <section class="photo wrapper" id="photo">
+        <!-- <h2 class="photo_title title">Фотографии</h2> -->
+        <p class="photo_text text">На празднике с нами будет фотограф, но только первые несколько часов. Поэтому будем признательны, если вы будете много-много фотографировать и себя, и нас и детали праздника. Мы создали <a href="https://photos.app.goo.gl/N1FLA9DRkoSatf3Y8">общий альбом</a>, куда добавим фотографии.</p>
     </section>
     <footer class="footer"></footer>
 </body>

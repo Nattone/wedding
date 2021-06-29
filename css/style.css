@@ -143,6 +143,26 @@ section.wrapper {
     transform: translateX(-50%);
 }
 
+.calendar table {
+    width: 100%;
+}
+.calendar .mark {
+    position: relative;
+    color: #fdfdfd;
+}
+
+.calendar .mark::after {
+    content: '♥';
+    color: #93384a;
+    position: absolute;
+    font-size: 32px;
+    height: 100%;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, 10%);
+    z-index: -1;
+}
+
 .recommendations {
     text-align: justify;  
 }
@@ -150,7 +170,15 @@ section.wrapper {
 .timer {
     background-color: #93384a;
     padding: 100px 0;
+    color: #fdfdfd;
 }
 
+.timer_title {
+    text-align: center;
+}
+
+.calendar {
+    text-align: center;
+}
 
 
