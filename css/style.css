@@ -17,10 +17,10 @@
 }
 
 body {
-    background-color: #d6d6d6;
+    background-color: #fdfdfd;
     color: #93384a;
-    font-family: "Brygada 1918", serif;
-    font-size: 22px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 26px;
 }
 
 ul {
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-    border-bottom: 1px solid #fdfdfd;
+    border-bottom: 1px solid currentColor;
 }
 
 img {
@@ -72,6 +72,9 @@ section.wrapper {
 }
 
 .header::after {
+
+    display: none;
+
     content: "";
     position: absolute;
     left: 0px;
@@ -83,6 +86,8 @@ section.wrapper {
 
 .header_wrapper {
     height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header_list {
@@ -104,7 +109,7 @@ section.wrapper {
     text-align: center;
 }
 .header_title {
-    font-style: italic;
+
 }
 
 .columns {
@@ -131,14 +136,14 @@ section.wrapper {
 
 .program_item {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     text-align: justify;
 }
 
 .program_item::after {
-    content: '—————';
+    content: '— ♡ —';
     position: absolute;
-    bottom: -38px;
+    bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -158,8 +163,8 @@ section.wrapper {
     font-size: 32px;
     height: 100%;
     left: 50%;
-    top: -50%;
-    transform: translate(-50%, 10%);
+    top: -30%;
+    transform: translateX(-50%);
     z-index: -1;
 }
 
@@ -185,8 +190,5 @@ section.wrapper {
     font-weight: bold;
 }
 
-.photo_link:hover {
-    
-}
 
 
