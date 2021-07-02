@@ -67,7 +67,6 @@ section.wrapper {
     background-position: center;
     height: 100vh;
     position: relative;
-    padding: 20px 0;
     color: #fdfdfd;
 }
 
@@ -88,6 +87,8 @@ section.wrapper {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
+    box-sizing: border-box;
 }
 
 .header_list {
